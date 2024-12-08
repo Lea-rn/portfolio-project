@@ -93,3 +93,83 @@ header h3 {
     color: rgb(28, 165, 196);
     transform: scale(3.1,3.1);
 }
+
+
+/* service section :::  */
+
+
+.card-service-container{
+    border: solid 1px black;
+}
+.card-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+   
+
+}
+
+.services h1 {
+   font-size: 60px;
+   text-align: center;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+   font-family: "Manrope", sans-serif;
+   font-optical-sizing: auto;
+ 
+
+  
+   
+}
+
+.card-service-container{
+    margin: 20px 20px;
+    height: 300px;
+    width: 28%;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.4s;
+
+}
+.card-service-container:hover{
+    transform: scale(1.1,1.1);
+    box-shadow: 0px 5px 60px rgba(0, 0, 0, 0.468);
+}
+
+.logo-container{
+
+text-align: center;
+}
+
+.logo{
+    font-size: 120px;
+
+}
+
+.card-info-container{
+
+    margin-top: 110px;
+}
+
+.info{
+
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 5px;
+}
+
+.card-info-container h4 {
+  font-size: 18px;
+  margin-left: 5px;
+}
+
+.info a {
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.services{
+    background-color: #C492B1;
+    padding: 40px;
+}
