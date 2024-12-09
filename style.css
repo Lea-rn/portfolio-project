@@ -144,8 +144,15 @@ text-align: center;
 
 .logo{
     font-size: 120px;
+    transition: 0.5s;
 
 }
+
+.card-service-container:hover .logo{
+    transform: rotate(360deg);    
+}
+
+/* rotate ===> rotation  */
 
 .card-info-container{
 
@@ -170,6 +177,77 @@ text-align: center;
 }
 
 .services{
-    background-color: #C492B1;
+
     padding: 40px;
+}
+
+
+/* project ::::  */
+
+.img-container{
+  
+    height: 180px;
+}
+
+.img-container img {
+   height: 100%; 
+}
+
+.card{
+    border: solid 0.5px rgb(16, 15, 15);
+    border-radius: 8px;
+    margin: 30px 10px;
+    cursor: pointer;
+    transition: 1s;
+ 
+
+    
+}
+
+.card:hover{
+    transform: scale(1.1,1.1);
+}
+
+.crad-container{
+ 
+    display: flex;
+    flex-direction: row;
+    padding: 100px 0px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.info button {
+    background-color: #C492B1;
+    border: transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.info button:hover{
+    transform: scale(1.1,1.1);
+    background-color: black;
+    color: white;
+}
+
+.project-title{
+    font-size: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.app {
+    /* background-color: #C492B1; */
+    background: linear-gradient( to right ,  #C492B1, #d768ad , #e54caa);
 }
