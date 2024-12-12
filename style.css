@@ -249,5 +249,90 @@ text-align: center;
 
 .app {
     /* background-color: #C492B1; */
+
     background: linear-gradient( to right ,  #C492B1, #d768ad , #e54caa);
 }
+
+/* contact section  :::: */
+
+.logo-card-container{
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+
+
+}
+
+.contact-card{
+    border: solid 1px;
+
+    height: 350px;     
+    margin: 0px 10px;
+    width: 380px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: 1s;
+}
+
+.contact-card:hover {
+    transform: scale(1.1,1.1);
+  
+}
+
+.contact{
+    padding: 100px;
+}
+
+.contact h1{
+    font-size: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto; 
+}
+
+.logo-card {
+    text-align: center;
+    font-size: 120px;
+}
+
+.contact-card h4 {
+    margin-top: 180px;
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+
+
+/* footer ::::  */
+footer {
+    background-color: #C492B1;
+    display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 20px;
+padding: 0px 80px;
+}
+
+.social-media-links-footer a {
+    margin: 0px 10px;
+    font-size: 20px;
+    color: black;
+}
+footer p span {
+    font-weight: 900;
+}
+
+/* height ===> toul
+
+width ===> 3orodh 
+
+margin ==> espace men bara
+padding ==> espace men dekhil ; 
+font-size ===> nkabrou beha text wela logo ; 
+font-weight ===> tkhachen beha lektiba ; 
+font-family ===> njibou beha font eli bech tekteb bih men  resources  externes .. 
+ boreer  ===> hiya lahdoud ; 
+ text-aligh ====> (start ,center , end)  ===> t7otlek text fel blassa eli t7eb aleha par rapport el parent eli element fih ;  */
