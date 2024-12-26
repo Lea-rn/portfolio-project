@@ -1,0 +1,48 @@
+h1{
+    text-align: center;
+    font-size: 80px;
+    color: red;
+}
+
+.main{
+    border: solid 2px blue;
+    color: red;
+    font-size: 80px;
+    width: 68%;
+    height: 500px;
+    float: left;
+    text-align: center;
+}
+
+.sidebar{
+    border: solid 2px blue;
+    color: red;
+    font-size: 80px; 
+    width: 28%;
+    height: 500px;
+    float: right;
+    text-align: center;
+   
+ 
+   
+}
+
+@media ( max-width : 840px) {
+    .main,.sidebar {
+        font-size: 30px;
+    }
+}
+
+@media ( max-width :420px) {
+    .main,.sidebar {
+     float: none;
+     margin: 10px auto;
+     font-size:20px ;
+    }
+}
+
+@media (min-width : 1030px) {
+    h1 {
+        color: blue;
+    }
+}

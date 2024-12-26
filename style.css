@@ -323,6 +323,7 @@ padding: 0px 80px;
 }
 footer p span {
     font-weight: 900;
+   
 }
 
 /* height ===> toul
@@ -336,3 +337,105 @@ font-weight ===> tkhachen beha lektiba ;
 font-family ===> njibou beha font eli bech tekteb bih men  resources  externes .. 
  boreer  ===> hiya lahdoud ; 
  text-aligh ====> (start ,center , end)  ===> t7otlek text fel blassa eli t7eb aleha par rapport el parent eli element fih ;  */
+
+
+
+ /* ////// make our website responsive :::  */
+
+
+ @media (max-width:479px){
+    header ,h3 {
+        font-size: 13px;
+    }
+    .link-container a {
+        font-size: 13px;
+    }
+    .cover-photo h3{
+          font-size: 25px;
+          color: black;
+    } 
+    .cover-photo h1{
+        font-size: 25px;
+        color: black;
+  } 
+  .cover-photo button{
+    font-size: 15px;
+ 
+} 
+
+.social-media-container a {
+    font-size: 20px;
+}
+
+.card-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+   
+
+}
+.contact h1 {
+    font-size: 25px;
+}
+
+footer p {
+    font-size: 10px;
+}
+.social-media-links-footer a {
+    font-size: 10px;
+}
+
+ }
+
+ 
+
+ @media (max-width:896px){
+    .info span {
+        font-size: 12px;
+    }
+ }
+
+
+
+
+
+
+ @media (max-width:670px){
+    .card-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+       
+    
+    }
+    .card-service-container{
+        margin: 20px auto;
+        width: 60%;
+    }
+
+    .info {
+        margin-bottom: 20px;
+    }
+    .logo {
+        font-size: 60px;
+    }
+    .logo-card-container{
+        display: flex; 
+        flex-direction: column;
+        justify-content: center;
+    
+    
+    }
+    .contact-card{
+        margin: 15px auto;
+        width: 100%;
+    }
+    .contact-logo {
+        font-size: 60px;
+    }
+    .contact-card h4 {
+        font-size: 13px;
+    }
+ }
